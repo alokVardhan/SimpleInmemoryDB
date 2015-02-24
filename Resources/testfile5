@@ -1,0 +1,14 @@
+begin
+set a 10
+set b 20
+set c 10
+begin 
+numequalto 10
+numequalto 20
+set a 20
+numequalto 10
+numequalto 20
+begin 
+unset a
+unset a
+commit
